@@ -1,4 +1,14 @@
 # 1. Project guidelines
+## 1.0 Git repo and maintanance
+A git repo must be created first. Scrum master should create it, and assign permissions among team.
+- Each project must contain a **README.md** file which contain:
+  - What this project all about?
+  - How to setup environment?
+  - How the project organized?  
+- Before development a `development` branch should created. Everyone should create there own branch from that `development` branch with convention as `FEATURE_JIRA_TICKET_TASK_HINT` e.g. `FEATURE_BNA-123_Upload_image`. Soon he finish his taks, he should push and request for merge with development branch.
+- For release a well tested production ready app should merge from `development` to `master` branch. Android keystore for app release should pass to top level management via email. Make sure you have putted a **TAG** for each release on git. 
+- For bugs, a hotfix branch should create first from the release branch with format of `HOTFIX_JIRA_TICKET_TASK_HINT` and sync between `development` and master branch.
+
 
 ## 1.1 Project structure
 
