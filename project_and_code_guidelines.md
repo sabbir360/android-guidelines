@@ -2,10 +2,16 @@
 
 ## 1.1 Project structure
 
-New projects should follow the Android Gradle project structure that is defined on the [Android Gradle plugin user guide](http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Project-Structure). The [ribot Boilerplate](https://github.com/ribot/android-boilerplate) project is a good reference to start from.
+New projects should follow the Android Gradle project structure that is defined on the [Android Gradle plugin user guide](http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Project-Structure). The [W3 Boilerplate](https://github.com/sabbir360/android-boilerplate) project is a good reference to start from.
 
 ## 1.2 File naming
-
+### 1.2.0 General Guidence while you start
+- For each class and methods under that should contain, 
+  - Author
+  - Purpose (not less than 50 character)
+  - Date of creation
+- Key idea here is, anyone can easily know about the class + method by reading and can ask more from the author
+- Before adding/changing to any existing class/method a meeting should call including the author and decide by the agreement of each member of the team (junior to senior). 
 ### 1.2.1 Class files
 Class names are written in [UpperCamelCase](http://en.wikipedia.org/wiki/CamelCase).
 
